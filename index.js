@@ -20,7 +20,7 @@ const proxy = createProxyMiddleware({
   }
 });
 
-app.use('/', proxy);
+app.use('/apps/uncube/10005/now.html/', proxy);
 
 const port = process.env.PORT || 443;
 app.listen(port, () => {
